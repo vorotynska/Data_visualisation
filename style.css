@@ -1,0 +1,32 @@
+body {
+    background-color: blueviolet;
+}
+
+.item {
+    margin-bottom: 7px;
+    font-size: 15px;
+    margin-right: 2px;
+    min-height: 25px;
+    min-width: 20px;
+}
+
+.data {
+    background-color: rosybrown;
+    text-align: right;
+    color: black;
+    display: inline-block;
+}
+.name {
+    display: inline-block;
+    margin-left: 5px;
+    color: navy;
+}
+
+
+  svg {
+    background-color: pink;
+  }
+  .bar:hover {
+    fill: brown;
+  }
+
