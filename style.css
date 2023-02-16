@@ -1,32 +1,14 @@
-body {
-    background-color: blueviolet;
-}
 
-.item {
-    margin-bottom: 7px;
-    font-size: 15px;
-    margin-right: 2px;
-    min-height: 25px;
-    min-width: 20px;
+.axis path, .axis line {
+    fill: none;
+    stroke: #333;
 }
-
-.data {
-    background-color: rosybrown;
-    text-align: right;
-    color: black;
-    display: inline-block;
+.axis .grid-line {
+    stroke: #000;
+    stroke-opacity: 0.2;
 }
-.name {
-    display: inline-block;
-    margin-left: 5px;
-    color: navy;
+.axis text {
+    font: 9px Verdana;
+    text-anchor:end;
 }
-
-
-  svg {
-    background-color: pink;
-  }
-  .bar:hover {
-    fill: brown;
-  }
 
